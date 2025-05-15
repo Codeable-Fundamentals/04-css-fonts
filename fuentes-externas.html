@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aprendiendo a usar fuentes Externas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      *,
+      *::after,
+      *::before {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      @font-face {
+        font-family: "MiFuente"; /*Uno le puede colocar el nombre que quiera*/
+        src: url("/Fuentes/Exile-Regular.ttf");
+        font-weight: bold;
+        font-style: normal;
+      }
+
+      body {
+        font-size: 16px;
+        font-family: system-ui, sans-serif;
+        padding: 0px 16px; /*lo puse para tener espacio*/
+      }
+
+      #title-principal {
+        font-size: 2em;
+        color: brown;
+      }
+
+      .section-title {
+        font-family: "MiFuente", system-ui, sans-serif;
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+      }
+      .section-content {
+        font-size: 14px;
+        text-align: justify;
+        font-family: "Lavishly Yours";
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1 id="title-principal">Aprendiendo a usar fuentes externas</h1>
+      <section>
+        <h2 class="section-title">Mi historia</h2>
+        <div class="section-content">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac
+            volutpat turpis. Proin justo mauris, dictum sed ante vitae, lobortis
+            posuere elit. Aliquam erat volutpat. Duis pharetra faucibus eros vel
+            iaculis. Aenean interdum lacinia diam. Sed feugiat mauris ut
+            sagittis consectetur. Sed malesuada fringilla ex, pharetra semper
+            leo tristique at. Duis eu erat quis massa tempor vestibulum et non
+            augue. Nulla non porttitor lorem. Nullam auctor magna ut turpis
+            accumsan, vel tempus sem finibus. Sed quis varius erat. Ut tincidunt
+            vulputate velit. Proin condimentum vitae tellus in euismod. Aenean
+            maximus nisi eget arcu tincidunt molestie.
+          </p>
+          <p>
+            Ut dolor nunc, imperdiet vel purus mollis, imperdiet ornare urna.
+            Pellentesque viverra vulputate aliquam. Ut rutrum pharetra diam ac
+            placerat. Fusce ullamcorper tortor non eros sagittis tincidunt et et
+            odio. Vestibulum sed nisi nec nulla semper rutrum et et erat. Mauris
+            varius luctus quam, ac varius lorem tincidunt vel. Morbi faucibus
+            pharetra malesuada. Sed nisi enim, pretium id ante non, auctor
+            ultrices lectus.
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="section-title">Mi proyectos</h2>
+        <div class="section-content">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac
+            volutpat turpis. Proin justo mauris, dictum sed ante vitae, lobortis
+            posuere elit. Aliquam erat volutpat. Duis pharetra faucibus eros vel
+            iaculis. Aenean interdum lacinia diam. Sed feugiat mauris ut
+            sagittis consectetur.
+          </p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
