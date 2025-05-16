@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      *,
+      *::after,
+      *::before {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: system-ui;
+      }
+      h1 {
+        font-size: 3rem; /*esta tomando por defecto 1em = 16 px*/
+      }
+      .fuente p:nth-child(1) {
+        font-size: 1rem;
+        font-weight: 900;
+      }
+      .fuente p:nth-child(2) {
+        font-size: 1rem;
+        font-weight: bold;
+      }
+      .fuente p:nth-child(3) {
+        font-size: 1rem;
+        font-weight: normal;
+      }
+
+      .fuente p:nth-child(4) {
+        font-size: 1rem;
+        font-weight: lighter;
+      }
+
+      .fuente p:nth-child(5) {
+        font-size: 1rem;
+        font-weight: normal;
+        font-style: italic;
+      }
+
+      .fuente p:nth-child(6) {
+        font-size: 1rem;
+        font-weight: normal;
+        text-transform: lowercase;
+        letter-spacing: 1rem; /*1 rem = 16 px*/
+        margin-bottom: 12px;
+      }
+
+      .fuente p:nth-child(7) {
+        font-size: 1rem;
+        font-weight: normal;
+        text-transform: lowercase;
+        word-spacing: 30px;
+      }
+
+      .fuente p:nth-child(8) {
+        font-size: 1rem;
+        font-weight: normal;
+        text-transform: uppercase;
+        text-indent: 3rem;
+      }
+
+      .card {
+        text-indent: 30px;
+
+        margin-top: 30px;
+        border: 1px dashed blue;
+        white-space: normal;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hola Mundo</h1>
+    <p>---------</p>
+    <div class="fuente">
+      <p>Hola soy una letra Gordita - Bolder</p>
+
+      <p>Hola soy una letra Gordita - Bold</p>
+      <p>Hola soy una letra Gordita - Normal</p>
+      <p>Hola soy una letra Gordita - Ligth</p>
+
+      <p>Hola soy una letra Gordita - Normal, pero inclinada</p>
+      <p>Necesito que todo este en mayucula</p>
+      <p>Espacio entre palabras</p>
+      <p>Soy hijo 8?</p>
+    </div>
+
+    <div class="card">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut tortor
+        sit amet arcu lacinia gravida non dapibus felis. Duis dictum consectetur
+        molestie. Sed ac euismod massa. Nam mattis augue at quam congue, nec
+        varius erat varius. Sed feugiat eget justo id rhoncus. Morbi tempor, dui
+        quis euismod semper, libero justo auctor metus, vitae porttitor arcu
+        justo vel velit. Pellentesque ultrices, mi vel feugiat hendrerit, elit
+        leo facilisis quam, nec ullamcorper tellus sem sit amet nunc.
+      </p>
+    </div>
+  </body>
+</html>
