@@ -1,26 +1,55 @@
 <!DOCTYPE html>
+<!-- Declara que este documento es HTML5 -->
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <!-- Define la codificación de caracteres para permitir tildes, ñ, etc. -->
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Hace que la página se adapte correctamente en dispositivos móviles -->
+
     <title>Best Practices CSS : RESET</title>
+
     <style>
+      /* RESET BÁSICO DE CSS */
+
       *,
       *::after,
       *::before {
+        /* Aplica estas reglas a todos los elementos y pseudoelementos */
         box-sizing: border-box;
+        /* Hace que el padding y el border no aumenten el ancho/alto total del elemento */
+
         margin: 0;
         padding: 0;
+        /* Elimina los márgenes y rellenos que el navegador coloca por defecto */
       }
+
+      html,
+      body {
+        height: 100%;
+        /* Permite que el <body> ocupe el 100% del alto de la pantalla */
+
+        margin: 0;
+        /* Elimina el margen por defecto que el navegador pone en el <body> */
+      }
+
       body {
         font-family: system-ui, sans-serif;
+        /* Usa una fuente del sistema: rápida, clara y sin necesidad de cargar fuentes externas */
+
         line-height: 1.5;
+        /* Mejora la legibilidad del texto al darle espacio vertical entre líneas */
       }
     </style>
   </head>
   <body>
-    <h2>Aprendiendo a aplicar la buenas practicas de reset en CSS</h2>
+    <!-- CONTENIDO DE PRUEBA -->
+
+    <h2>Aprendiendo a aplicar la buenas prácticas de reset en CSS</h2>
     <p>Prueba 1</p>
     <p>Prueba 2</p>
+
+    <!-- Puedes agregar más contenido aquí para seguir practicando -->
   </body>
 </html>
